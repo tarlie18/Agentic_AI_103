@@ -1,1 +1,2 @@
 # Agentic_AI_103
+Builds on 101–102 by moving from a single agent to a multi-agent system with human-in-the-loop oversight. This notebook implements a three-agent Public Health Advisory Drafting Team (Researcher → Writer → Reviewer) built with LangGraph, where each agent has a specialized role and drafts loop back for revision until approved. Before any advisory is finalized, the workflow pauses at a human checkpoint, where a reviewer can approve, directly edit, or steer the draft — reflecting the human-in-the-loop requirements expected in a government/HHS setting.
